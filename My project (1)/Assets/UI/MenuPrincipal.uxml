@@ -1,0 +1,23 @@
+<engine:UXML xmlns:engine="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MenuPrincipal.uss?fileID=7433441132597879392&amp;guid=933fd448c03be49b994bf9fbdf589d6a&amp;type=3#MenuPrincipal" />
+    <engine:VisualElement class="contenedor">
+        <engine:VisualElement class="fondo-azul">
+            <engine:Image class="imagen-calabaza" style="background-image: url(&quot;project://database/Assets/Images/calabza.png?fileID=2800000&amp;guid=1adb6114408a7c92dba7ee039617f313&amp;type=3#calabza&quot;); position: absolute; top: 437px; left: 1152px; height: 488px; width: 604px;" />
+        </engine:VisualElement>
+        <engine:VisualElement class="contenedor-titulo">
+            <engine:Label text="Tarea Unity" class="titulo" />
+        </engine:VisualElement>
+        <engine:Image class="imagen-fantasma" style="background-image: url(&quot;project://database/Assets/Images/nubesinfondo.png?fileID=2800000&amp;guid=661b95c65bde1ee6599535368a324f5f&amp;type=3#nubesinfondo&quot;); position: absolute; top: 311px; left: 1021px;" />
+        <engine:VisualElement name="ContenedorBotones" class="contenedor-botones" style="width: 800px; height: 600px;">
+            <engine:Button enable-rich-text="false" text="Jugar" name="BotonA" class="boton" />
+            <engine:Button text="Ayuda" name="BotonB" class="boton" />
+            <engine:Button text="Creditos" name="BotonC" class="boton" />
+            <engine:Label name="TextoAyuda" text="Lorem ipsum dolor sit amet, &#10;consectetur adipiscing elit, se&#10;d do eiusmod tempor incididunt&#10; ut labore et dolore magna aliqua. &#10;Ut enim ad minim veniam, quis nostrud &#10;exercitation ullamco laboris nisi ut aliquip&#10; ex ea commodo consequat. &#10;Duis aute irure dolor in reprehenderit &#10;in voluptate velit esse cillum dolore eu f&#10;ugiat nulla pariatur. Excepteur s&#10;int occaecat cupidatat non proident, s&#10;unt in culpa qui officia deserunt mol&#10;lit anim id&#10; est laborum." class="texto-ayuda" style="display: none;" />
+            <engine:Button name="BotonRegresar" text="Regresar" class="boton boton-regresar" style="display: none; top: 0; right: 0;" />
+        </engine:VisualElement>
+        <engine:Label text="Tadeo Emanuel Arellano Conde (A01800840)" class="nombre" style="width: 897px; left: 937px;" />
+        <engine:Button class="boton boton-cerrar" style="background-image: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=5923138177525885446&amp;guid=461a64bac392bc372b76aebb4445a19c&amp;type=3#Remove@2x&quot;); position: absolute; top: 889px; left: -3px; width: 178px;" />
+        <engine:Image class="imagen-fantasma" style="position: absolute; background-image: url(&quot;project://database/Assets/Images/Screenshot%20from%202025-03-22%2022-08-08.png?fileID=2800000&amp;guid=c1daea3729178a5fc8d88020fd8c1324&amp;type=3#Screenshot from 2025-03-22 22-08-08&quot;); top: 649px; left: 131px; height: 242px; width: 246px;" />
+        <engine:Image class="imagen-fantasma" style="position: absolute; background-image: url(&quot;project://database/Assets/Images/fantasma.png?fileID=2800000&amp;guid=a593035c07e23a1dbab9dd290a403a85&amp;type=3#fantasma&quot;); top: 335px; left: 151px; height: 242px; width: 275px;" />
+    </engine:VisualElement>
+</engine:UXML>

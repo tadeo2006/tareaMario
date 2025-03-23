@@ -1,0 +1,136 @@
+.contenedor {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.fondo-azul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(9, 60, 100);
+    z-index: -1;
+}
+
+.contenedor-titulo {
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    font-size: 84px;
+    color: rgb(255, 249, 249);
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+}
+
+.contenedor-animaciones {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.imagen-fantasma {
+    width: 200px;
+    height: 200px;
+    background-image: url('RUTA_DE_LA_IMAGEN_FANTASMA');
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name: girar;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.imagen-calabaza {
+    width: 200px;
+    height: 200px;
+    background-image: url('RUTA_DE_LA_IMAGEN_CALABAZA');
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name: girar;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.contenedor-botones {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.boton {
+    width: 400px;
+    height: 100px;
+    background-image: url("project://database/Assets/Buttons/PNG/15Button_Long_Yellow.png?fileID=21300000&guid=89bbc17355dc0064aae767e8f31a93aa&type=3#15Button_Long_Yellow");
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-size: 72px;
+    -unity-text-align: middle-center;
+    margin: 50px 0;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+.boton:hover {
+    scale: 1.1 1.1;
+}
+
+.boton:active {
+    -unity-background-image-tint-color: rgb(99, 99, 99);
+}
+
+.boton-cerrar {
+    background-image: url('project://database/Assets/Buttons/PNG/15Button_Long_Red.png');
+}
+
+.nombre {
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    -unity-text-align: lower-center;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.texto-ayuda {
+    color: white;
+    font-size: 30px;
+    width: 80%; /* Cambia de 600px a un porcentaje para ser más flexible */
+    max-width: 600px; /* Asegura un ancho máximo */
+    text-align: center;
+    word-wrap: break-word; /* Permite que las palabras largas se dividan */
+    overflow-wrap: break-word;
+}
+
+.texto-creditos {
+    color: white;
+    font-size: 30px;
+    width: 80%; /* Cambia de 600px a un porcentaje para ser más flexible */
+    max-width: 600px; /* Asegura un ancho máximo */
+    text-align: center;
+    word-wrap: break-word; /* Permite que las palabras largas se dividan */
+    overflow-wrap: break-word;
+}

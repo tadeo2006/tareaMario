@@ -2,7 +2,7 @@ using UnityEngine;
 
 /**
 Modificar las variables del Animator que realiza las transiciones de las animaciones
-Autor: Roberto Mtz. Román
+Autor: Tadeo Emanuel Arellano Conde
 */
 public class CambiaAnimacion : MonoBehaviour
 {

@@ -2,7 +2,7 @@ using UnityEngine;
 
 /**
 Detectar si el personaje está en el piso
-Autor: Roberto Mtz. Román
+Autor: Tadeo Emanuel Arellano Conde
 */
 public class EstadoPersonaje : MonoBehaviour
 {
